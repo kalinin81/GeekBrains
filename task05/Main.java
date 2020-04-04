@@ -2,7 +2,7 @@ package task05;
 
 public class Main {
     public static void main(String[] args){
-        int a=2020;
+        int a=2020;//
         method(a);
     }
 
