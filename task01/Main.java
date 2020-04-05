@@ -8,9 +8,10 @@ public class Main {
         int c=7;
         int d=9;
         float f = method(a,b,c,d);
+        System.out.println(f);
     }
 
     public static float method(int a, int b, int c, int d){
-        return (float) a * (b + (c / d));
+        return  a * (b + (c / (float) d));
     }
 }
